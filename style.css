@@ -1,0 +1,107 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.hide{
+    display: none;
+}
+.GameArea{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(82, 71, 71);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+   
+}
+p{
+    padding-top: 10px;
+}
+.StartGame{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(106, 205, 245);
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 300px;
+    left: 40%;
+    z-index: 5;
+    box-shadow: 2px 5px 3px black;  
+}
+.StartGame:hover{
+    background-color: rgb(13, 83, 110);
+    color: deepskyblue;
+}
+.car{
+    width: 45px;
+    height: 90px;
+    background-image: url(images/red_Car.png);
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+.othercar{
+  
+    width: 45px;
+    height: 90px;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;   
+}
+
+.RoadLine{
+    width: 10px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 195px;
+   
+}
+.Score{
+    width: 200px;
+    line-height: 50px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    text-align: center;
+    font-size:xx-large;
+    box-shadow: 3px 3px 5px rgb(34, 31, 31);
+   
+}
+
+.Level{
+    width: 200px;
+    line-height: 50px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    text-align: center;
+    font-size:xx-large;
+    box-shadow: 3px 3px 5px rgb(34, 31, 31);
+}
+.Level:hover{
+    background-color: rgb(8, 175, 147);
+}
+.Score:hover{
+    background-color: rgb(8, 175, 147);
+}
+.CarGame{
+    background-color: rgb(19, 190, 19);
+}
+
+#playPauseBtn{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-image:  url(images/soundon.png);
+    background-size: cover;
+    
+}
